@@ -1,5 +1,7 @@
 package projetopilha;
 
+import java.util.Stack;
+
 public class ProjetoPilha {
 
     public static void main(String[] args) {
@@ -25,6 +27,12 @@ public class ProjetoPilha {
 
         pilha.excluir();
         System.out.println(pilha);
+        
+        Stack p = new Stack();
+        p.push("Teste");
+        p.push("Outra coisa");
+        System.out.println(p);
+        p.pop();
+        System.out.println(p);
     }
-
 }
